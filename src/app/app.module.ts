@@ -8,6 +8,7 @@ import { MediaItemComponent } from './media-item/media-item.component';
 import { MediaItemListComponent } from './media-item-list/media-item-list.component';
 import { FavoriteDirective } from './favorite.directive';
 import { CategoryListPipe } from './category-list.pipe';
+import { MediaItemFormComponent } from './media-item-form/media-item-form.component';
 
 //Decorator from the core package, prefixed with @
 // imports, declarations, bootstrap => metadata properties
@@ -19,7 +20,8 @@ import { CategoryListPipe } from './category-list.pipe';
     MediaItemComponent,
     MediaItemListComponent,
     FavoriteDirective,
-    CategoryListPipe
+    CategoryListPipe,
+    MediaItemFormComponent
   ],
   //is used to bring in other angular modules
   imports: [
