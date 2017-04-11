@@ -18,5 +18,18 @@ import { Component } from '@angular/core';
   */
 })
 export class AppComponent {
-  title = 'My App!';
-}
+  onMediaItemDelete(mediaItem){
+
+  }
+
+
+  firstMediaItem = {
+    id: 1,
+    name: "Firebug",
+    medium: "Series",
+    category: "Science Fiction",
+    year: 2010,
+    watchedOn: null,
+    isFavorite: false
+  }
+};
