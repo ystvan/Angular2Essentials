@@ -6,6 +6,7 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { MediaItemComponent } from './media-item/media-item.component';
 import { MediaItemListComponent } from './media-item-list/media-item-list.component';
+import { FavoriteDirective } from './favorite.directive';
 
 //Decorator from the core package, prefixed with @
 // imports, declarations, bootstrap => metadata properties
@@ -15,7 +16,8 @@ import { MediaItemListComponent } from './media-item-list/media-item-list.compon
   declarations: [
     AppComponent,
     MediaItemComponent,
-    MediaItemListComponent
+    MediaItemListComponent,
+    FavoriteDirective
   ],
   //is used to bring in other angular modules
   imports: [
