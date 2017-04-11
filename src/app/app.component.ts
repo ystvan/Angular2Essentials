@@ -5,7 +5,18 @@ import { Component } from '@angular/core';
   //metadata property
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
+  /*
+  styles: [`
+    h1 {color : #ffffff; }
+    `,
+    `
+    .description {
+      font-style: italic;
+      color: green;
+    }
+  `]
+  */
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'My App!';
 }
