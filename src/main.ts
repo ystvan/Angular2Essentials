@@ -7,4 +7,5 @@ if (environment.production) {
   enableProdMode();
 }
 
+//this function expecting a root module
 platformBrowserDynamic().bootstrapModule(AppModule);
